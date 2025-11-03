@@ -14,8 +14,9 @@
       <h1 class="display-5 fw-bold">Weather Forecasting Software</h1>
     </div>
   </header>
-  
-  <main class="container my-5">
+
+    <!-- Shouldn't have multiple main tags, all of this information should be within a single one -->
+  <main class="container my-5"> <!-- Tag never closed -->
     <div class="row g-4"> 
       <div class="col-12">
         <div class="card shadow-sm">
@@ -28,8 +29,8 @@
       </div>
     </div>
 
-    <main class="container my-5">
-        <div class="row g-4">
+    <main class="container my-5"> <!-- Tag never closed -->
+        <div class="row g-4"> <!-- Tag never closed -->
           <div class="col-12">
             <div class="card shadow-sm">
               <div class="card-body">
@@ -44,8 +45,8 @@
           </div>
         </div>
 
-        <main class="container my-5">
-            <div class="row g-4">
+        <main class="container my-5"> <!-- Tag never closed  (indentation moving further up is a sure sign of this) -->
+            <div class="row g-4"> <!-- Tag never closed -->
               <div class="col-12">
                 <div class="card shadow-sm">
                   <div class="card-body">
