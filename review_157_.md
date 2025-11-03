@@ -1,4 +1,6 @@
 ### Interest of Content
+Each page features different information about the stated topic
+'WFC.html' contains history, 'onlinebanking.html' only refers to impacts, for example
 
 ### Consistency and Quality of Visual Presentation
 Most of the files have a consistent and high quality visual presentation.
