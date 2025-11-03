@@ -13,6 +13,7 @@ Only 'Communication.html' has a link back to index, the others are all standalon
 
 ### Evidence of Collaboration
 
+Not all files have information of who contributed
 
 #### TEMP FILE NAMES
 index
