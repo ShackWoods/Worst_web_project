@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html> <!-- Please indent your tags -->
 <head>
 <title> Online Banking </title>
+    <!-- You have imported the CSS but not the JS for bootstrap and then you never use it -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
 
 <h1> Online Banking </h1>
-<img src = "images/piggybank.jpg" alt = "piggy bank" heigh="150" width="200">
-<br>
+<img src = "images/piggybank.jpg" alt = "piggy bank" heigh="150" width="200"> <!-- It is height not heigh-->
+<br> <!-- <p> tags would be more effective (for styling and accessibility) than break lines, further bootstrap has margins and padding classes for this cause -->
 <br>
 
 <h2> Key impacts of computers on online banking </h2>
 <br>
-<dl>
+<dl> <!-- This tag is never closed and a description list is not appropriate in this context: it would be more effective to simply use the headers
+    by themselves-->
     <dt> <h3> Enhanced convenience and accessibility: </h3> </dt>
-    <dd>
+    <dd> <!-- This tag is never closed -->
     <ul> 
     <li> Customers can access their accounts and conduct transactions anytime, anywhere, without visiting a physical branch.
     <img src = "images/anytimeanywhere.jpg" alt = "anytime anywhere" height="200" width="300">
@@ -25,7 +27,7 @@
     <br>
 
     <dt> <h3> Increased speed and efficiency: </h3> </dt>
-    <dd>
+    <dd> <!-- This tag is never closed -->
     <ul> 
     <li> Transactions are often completed almost instantly. </li>
     <img src="images/instanttransaction.jpg" alt = "instant transactions" height="200" width="300">
@@ -35,7 +37,7 @@
     <br>
 
     <dt> <h3> Transformation of traditional banking: </h3> </dt>
-    <dd>
+    <dd> <!-- This tag is never closed -->
     <ul> 
     <li> Banks are reducing their physical branch networks and shifting focus to digital-first models. </li>
     <img src="images/digitalfirstmodel.jpeg" alt = "digital-first models" height="200" width="300">
