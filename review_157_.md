@@ -29,13 +29,10 @@ Minor errors, but nothing dangerous
 Just the same trailing slash error on lines 4,5,7 and 8 as Communication.html
 
 #### WFC.html
-On lines 31 and 42 we have main elements inside of a main elements.
-
-A document should only have one main element
-
-The main elements on lines 18, 31, and 47 as well as the div elements on lines 19, 32, and 48 are not closed.
-
-Interestingly, on line 42 there is a closing </p> tag, but no opening <p> tag.
+- On lines 31 and 42 we have main elements inside of a main elements.
+- A document should only have one main element
+- The main elements on lines 18, 31, and 47 as well as the div elements on lines 19, 32, and 48 are not closed.
+-Interestingly, on line 42 there is a closing p tag, but no opening p tag.
 
 #### onlinebanking.html
 Line 11 has a minor mispelling of height in the img tag, and on line 17 there is an unclosed dl tag.
